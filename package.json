@@ -1,0 +1,32 @@
+{
+  "name": "a_c_react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "form-data": "^2.3.1",
+    "history": "^4.6.3",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-medium-image-zoom": "^3.0.10",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "1.1.4",
+    "react-table": "^6.8.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6"
+  },
+  "scripts": {
+    "start dev":"NODE_ENV=dev && react-scripts start",
+    "start": "NODE_ENV=prod && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

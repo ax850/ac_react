@@ -1,0 +1,24 @@
+.user-list-wrapper {
+    margin-bottom:1em;
+}
+
+#user-wrapper{
+    padding: 1em;
+}
+
+button {
+    border-color: black !important;
+}
+
+button:hover{
+    font-weight: normal;
+    color: #333333;
+    cursor: pointer;
+    background-color: gainsboro;
+    border-color: transparent;
+
+}
+
+.ReactTable .rt-tbody .rt-td:last-child {
+    text-align: center;
+}
